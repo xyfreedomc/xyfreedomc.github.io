@@ -1,0 +1,32 @@
+.choice_pic{
+/*这个要日后弄清楚各个标签的功效！！！！！*/
+    clear: both;
+    display: block;
+    margin:auto; ;
+    width: 148px;
+    height: 64px;
+    opacity: 0.2;
+}
+
+.choice_pic:hover{
+    position: relative;
+    animation: shade 3s;
+
+}
+
+@keyframes shade{
+    0%{opacity: 1;
+        width: 148px;
+        height: 64px;
+    }
+
+    50%{opacity: 0.7;
+        width: 177.6px;
+        height: 76px;
+    }
+
+    100%{opacity: 0.4;
+        width: 213.12px;
+        height: 91.2px
+    }
+}
